@@ -3,118 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EuroFit Tyres – Trusted Tyre Shop in London</title>
+  <title>EuroFit Tyres – Your Trusted Tyre Shop in London</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
       margin: 0;
       padding: 0;
-      background: #f8f9fa;
       color: #333;
     }
 
     header {
-      background-color: #222;
+      background-color: #111;
       color: #fff;
-      padding: 40px 20px;
+      padding: 30px 20px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
 
-    header p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-    }
-
-    section {
+    .container {
       max-width: 1000px;
-      margin: auto;
+      margin: 30px auto;
       padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
-    h2 {
-      color: #c0392b;
-      margin-top: 40px;
-      border-bottom: 2px solid #c0392b;
-      padding-bottom: 10px;
+    h2, h3 {
+      color: #005baa;
     }
 
     ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    ul li {
-      padding: 8px 0;
-      font-size: 1.05rem;
-    }
-
-    ul li::before {
-      content: "✔️";
-      margin-right: 10px;
-      color: #27ae60;
+      list-style-type: "✔ ";
+      padding-left: 20px;
     }
 
     .locations {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 40px;
-    }
-
-    .location {
-      flex: 1;
-      min-width: 300px;
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    }
-
-    .location h3 {
-      color: #2c3e50;
-      margin-bottom: 10px;
-    }
-
-    .location p {
-      font-weight: bold;
-      margin: 10px 0 5px;
-    }
-
-    footer {
-      background-color: #222;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-
-    .cta {
-      background-color: #c0392b;
-      color: #fff;
+      background-color: #eef6ff;
+      border-left: 4px solid #005baa;
       padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+    .call-box {
+      background-color: #005baa;
+      color: white;
+      padding: 15px;
+      border-radius: 10px;
       text-align: center;
       margin-top: 30px;
-      border-radius: 8px;
-      font-size: 1.1rem;
     }
 
-    a {
+    .call-box a {
       color: #fff;
+      font-weight: bold;
       text-decoration: underline;
     }
 
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: #111;
+      color: #ccc;
+    }
 
-      .location {
-        margin-bottom: 20px;
-      }
+    a {
+      color: #005baa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .emoji {
+      font-size: 1.2em;
     }
   </style>
 </head>
@@ -122,10 +92,12 @@
 
 <header>
   <h1>EuroFit Tyres – Your Trusted Tyre Shop in London</h1>
-  <p>Mobile Tyre Fitting Near You – Plaistow (E13) & Park Royal (W3)</p>
+  <p class="emoji">🚗💨 Mobile Tyre Fitting Near You</p>
 </header>
 
-<section>
+<div class="container">
+  <p>Welcome to <strong>EuroFit Tyres</strong>, your local tyre shop in London offering premium tyres, expert fitting, and mobile services across the city. With two convenient locations in <strong>Plaistow (E13 8QQ)</strong> and <strong>Park Royal (W3)</strong>, we are your go-to <em><a href="url">tyre shop near me</a></em> for all your tyre needs—whether you need new tyres, puncture repairs, or mobile tyre fitting at your doorstep.</p>
+
   <h2>Our Tyre Shop Services</h2>
   <ul>
     <li>Mobile Tyre Fitting – We come to you for fast, hassle-free service.</li>
@@ -135,53 +107,47 @@
     <li>Wheel Alignment & Balancing – Ensures a smooth and safe drive.</li>
   </ul>
 
-  <div class="cta">
-    Looking for a <strong>"tyre shop open now"</strong>? Visit us in Plaistow or Park Royal, or book our same-day mobile service!
-  </div>
+  <p>Looking for a <strong>"tyre shop open now"</strong>? Visit our <strong>Plaistow</strong> or <strong>Park Royal</strong> locations or book our mobile tyre fitting service for same-day assistance!</p>
 
   <h2>Areas We Serve</h2>
-  <div class="locations">
-    <div class="location">
-      <h3>📍 Park Royal (W3) – West & North-West London</h3>
-      <p>Areas covered:</p>
-      <ul>
-        <li>Acton (NW10), Shepherd’s Bush (W12), Park Royal (W3)</li>
-        <li>Chiswick (W4), Hammersmith (W6), Turnham Green (W4)</li>
-        <li>Hanwell (W7), Ealing (W5), West Ealing (W13)</li>
-        <li>Kensington Olympia (W14), Fulham (SW6), Chelsea (SW10)</li>
-        <li>Cricklewood (NW2), Kilburn (NW6), Kingsbury (NW9)</li>
-        <li>Finchley (N2, N3), Islington (N1), Battersea (SW11)</li>
-      </ul>
-    </div>
 
-    <div class="location">
-      <h3>📍 Plaistow (E13) – East & North-East London</h3>
-      <p>Areas covered:</p>
-      <ul>
-        <li>Plaistow (E13), Upton Park (E13), West Ham (E15)</li>
-        <li>Stratford (E15), Canning Town (E16), Beckton (E6)</li>
-        <li>Bow (E3), Leyton (E10), Leytonstone (E11)</li>
-        <li>Hackney Wick (E9), Shadwell (E1), Whitechapel (E1)</li>
-        <li>Stepney (E1), Silvertown (E16), Custom House (E16)</li>
-      </ul>
-    </div>
+  <div class="locations">
+    <h3>📍 Park Royal (W3) – Your Local Tyre Shop in West & North-West London</h3>
+    <p>EuroFit Tyres Park Royal covers:</p>
+    <p>Acton (NW10), Shepherd’s Bush (W12), Park Royal (W3)<br>
+    Chiswick (W4), Hammersmith (W6), Turnham Green (W4), South Acton (W3)<br>
+    Hanwell (W7), Ealing (W5), West Ealing (W13), Kensington Olympia (W14)<br>
+    North Kensington (W10, W15), Fulham (SW6), South Kensington (SW7)<br>
+    Cricklewood (NW2), Kilburn (NW6), St John’s Wood (NW8), Kingsbury (NW9), Golders Green (NW11)<br>
+    Islington (N1), East Finchley (N2), Finchley Central (N3)<br>
+    Chelsea (SW10), Earl’s Court (W8/W14), Battersea (SW11)</p>
+  </div>
+
+  <div class="locations">
+    <h3>📍 Plaistow (E13) – Your Local Tyre Shop in East & North-East London</h3>
+    <p>EuroFit Tyres Plaistow serves:</p>
+    <p>Need a "<a href="https://g.co/kgs/5sKdPW2">tyre shop near me</a>" in East London? EuroFit Tyres Plaistow serves:</p>
+    <p>Plaistow (E13), Upton Park (E13), West Ham (E15), Stratford (E15)<br>
+    Canning Town (E16), North Woolwich (E16), Custom House (E16), Beckton (E6), Silvertown (E16)<br>
+    Bow (E3), Bethnal Green (E2), Leyton (E10), Leytonstone (E11)<br>
+    Hackney Wick (E9), Shadwell (E1), Whitechapel (E1), Stepney (E1)</p>
   </div>
 
   <h2>Why Choose EuroFit Tyres?</h2>
   <ul>
-    <li>Fast & Reliable Service – Same-day mobile tyre fitting available.</li>
-    <li>Competitive Prices – Affordable rates for top-quality tyres.</li>
-    <li>Expert Technicians – Professional fitting and repairs.</li>
-    <li>Two Convenient Locations – Walk-ins welcome or book our mobile service.</li>
+    <li>✅ Fast & Reliable Service – Same-day mobile tyre fitting available.</li>
+    <li>✅ Competitive Prices – Affordable rates for top-quality tyres.</li>
+    <li>✅ Expert Technicians – Professional fitting and repairs.</li>
+    <li>✅ Two Convenient Locations – Walk-ins welcome or book our mobile service.</li>
   </ul>
 
-  <div class="cta">
-    <strong>Need a Tyre Shop Open Now? Call Today!</strong><br><br>
-    📞 Park Royal (W3): <a href="tel:+447932010457">+44 7932 010457</a><br>
-    📞 Plaistow (E13): <a href="tel:+447932010457">+44 7932 010457</a><br><br>
-    🌐 <a href="https://eurofittyresltd.co.uk/" target="_blank">Visit Our Website</a>
+  <div class="call-box">
+    <h3>Need a Tyre Shop Open Now? Call Today!</h3>
+    <p>📞 Park Royal (W3): <a href="tel:+447932010457">+44 7932 010457</a></p>
+    <p>📞 Plaistow (E13): <a href="tel:+447932010457">+44 7932 010457</a></p>
+    <p>🌐 Website: <a href="https://eurofittyresltd.co.uk/" target="_blank">https://eurofittyresltd.co.uk/</a></p>
   </div>
-</section>
+</div>
 
 </body>
 </html>
